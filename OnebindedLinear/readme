@@ -1,0 +1,17 @@
+OnebindedLinear is a custom list
+Using OnebindedLinear --> import
+
+var list = new OnebindedLinear(args) --> creating list that contains values of args
+var list = new OnebindedLinear() --> creating empty list
+
+list.data --> [args] --> serialized into array
+list.primaryData --> {next: ...args} --> non serialized for using like a simple 
+    object or converting into json
+list.length --> length of a list
+list.getData(position) --> getting a value of declared position of list
+
+list.appendNew(value) --> appending value into list
+list.prependNew(value) --> prepending value into list
+list.setData(value, position) --> resetting of declared value 
+list.delete(position) --> deleting of list's object 
+list.insertAfter(position, value) --> inserting object with value after position

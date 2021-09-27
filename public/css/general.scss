@@ -1,0 +1,80 @@
+body > div {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body > div > h1:first-child {
+    color: white;
+    font-size: 130px;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    @media screen and (max-width: 800px) {
+        font-size: 80px;
+    }
+}
+a {
+    color: white;
+    font-size: 55px;
+    text-decoration: none;
+    @media screen and (max-width: 800px) {
+        font-size: 40px;
+    }
+}
+input {
+    outline: none;
+    border-radius: 0;
+    background: black;
+    border: solid white 3px;
+    color: white;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin: 10px;
+    @media screen and (max-width: 800px) {
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        text-indent: 10px;
+    }
+}
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+    }
+}
+button{
+    outline: none;
+    border-radius: 0;
+    background: white;
+    border: solid white 3px;
+    color: black;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    @media screen and (max-width: 800px) {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+button:hover{
+    background: black;
+    color: white
+}

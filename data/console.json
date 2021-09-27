@@ -1,0 +1,21 @@
+{
+    "profile": {
+        "setName": "setName(",
+        "setPassword": "setPassword(",
+        "setData": "setData("
+    },
+    "http": {
+        "get": "get(",
+        "post": "post(",
+        "send": "send("
+    },
+    "admin": {
+        "setStatusFor": "setStatusFor(",
+        "setNameFor": "setNameFor(",
+        "closeRest": "closeRest(",
+        "deleteUser": "deleteUser(",
+        "signIn": "signIn(",
+        "signUp": "signUp(",
+        "setKey": "setKey("
+    }
+}

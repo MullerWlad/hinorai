@@ -1,0 +1,27 @@
+{
+  "name": "hinorai",
+  "version": "1.0.0",
+  "description": "this is my api and interface for this ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "hinorai"
+  ],
+  "author": "ottoMuller",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-sass-middleware": "^0.11.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
